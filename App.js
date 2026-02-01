@@ -40,8 +40,8 @@ const styles = StyleSheet.create({
   loginBox: {
     paddingBlock: 15,
     backgroundColor: '#020F22',
-    width: 300,
-    height: 400,
+    width: "80%",
+    height: "45%",
     borderRadius: 15,
     display: "flex",
     alignItems: "center",
@@ -50,26 +50,28 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 30,
     textAlign: 'center',
-    color: '#fcfcfc',
+    color: '#fcfcfc'
   },
   section: {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
     width: "100%",
-    height: 130,
-    marginBottom: 20
+    height: 150
   },
   input: {
     backgroundColor: '#2C4770',
     color: '#fcfcfc',
     borderRadius: 10,
     width: "80%",
+    height: 50,
+    fontSize: 15,
+    paddingLeft: 15
   },
   button: {
     backgroundColor: "#0D5146",
-    paddingVertical: 12,
-    paddingHorizontal: 24,
+    paddingVertical: 15,
+    paddingHorizontal: 25,
     borderRadius: 10,
     marginBottom: 20
   },
