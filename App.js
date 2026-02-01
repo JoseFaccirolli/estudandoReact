@@ -51,19 +51,20 @@ const styles = StyleSheet.create({
     fontSize: 30,
     textAlign: 'center',
     color: '#fcfcfc',
-    marginBottom: 40
   },
   section: {
     display: "flex",
     alignItems: "center",
-    width: "100%"
+    justifyContent: "space-between",
+    width: "100%",
+    height: 130,
+    marginBottom: 20
   },
   input: {
     backgroundColor: '#2C4770',
     color: '#fcfcfc',
     borderRadius: 10,
     width: "80%",
-    marginBottom: 40
   },
   button: {
     backgroundColor: "#0D5146",
